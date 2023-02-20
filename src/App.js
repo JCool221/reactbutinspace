@@ -10,7 +10,7 @@ function App() {
 
     <Starfield />
     <NavBar />
-    <Portfolio />
+    <AboutMe />
     </div>
   );
 }

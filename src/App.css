@@ -3,7 +3,18 @@
   --coin: #9897a9;
   --cloud: #c5c6d0;
   cursor: crosshair;
+  --ti-cursor-display: none;
   color: var(--cloud);
+}
+
+@font-face {
+  font-family: "pixeboy";
+  src: url("./components/assets/fonts/Pixeboy.ttf");
+}
+
+@font-face {
+  font-family: "aGoblinAppears";
+  src: url('./components/assets/fonts/AGoblinAppears.ttf');
 }
 
 .nav-bar {
@@ -35,10 +46,24 @@ a{
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  line-height: 2;
 }
 
 .about-me img {
   height: 10rem;
   width: auto;
   z-index: 2;
+}
+
+.about-head {
+  font-family: "pixeboy";
+  font-size: 100px;
+  text-shadow: orangered 5px 5px 5px;
+  letter-spacing: 10px;
+}
+
+.about-text {
+  font-family: "aGoblinAppears";
+  font-size: 16px;
+  /* text-shadow: darkorange 1px 1px 20px; */
 }
