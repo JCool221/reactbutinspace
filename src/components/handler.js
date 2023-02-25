@@ -1,22 +1,16 @@
 import React from "react";
-import AboutMe from "./aboutMe";
+
+import { Link } from "react-router-dom";
 
 const Handler = () => {
-    
-    const handleClick = (e) => {
-        // e.preventDefault();
-        console.log(e)
-    }
 
     return (
         <div>
-            <a onClick={() => handleClick('AboutMe')}>About Me</a>  
-            <a onClick={() => handleClick('Portfolio')}>Portfolio</a>  
-            <a onClick={() => handleClick('Contact Me')}>Contact Me</a>  
-            <a onClick={() => handleClick('Resume')}>Resume</a>  
-
-            {/* {renderComp && React.createElement(renderComp)}   */}
-
+            <Link to={`AboutMe`} >About Me</Link>
+            <Link to={`Portfolio`}>Portfolio</Link>
+            <Link to={`Contact`}>Contact Me</Link>
+            <Link to={`Resume`}>Resume</Link>
+            <Link to={'BreathingShapes'}>My Css Tricks</Link>
         </div>
     )
 }

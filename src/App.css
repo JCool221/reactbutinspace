@@ -3,7 +3,7 @@
   --coin: #9897a9;
   --cloud: #c5c6d0;
   cursor: crosshair;
-  --ti-cursor-display: none;
+  --ti-cursor-displaycode : none;
   color: var(--cloud);
 }
 
@@ -15,6 +15,10 @@
 @font-face {
   font-family: "aGoblinAppears";
   src: url('./components/assets/fonts/AGoblinAppears.ttf');
+}
+
+.top-level {
+  z-index: 2;
 }
 
 .nav-bar {
@@ -58,12 +62,13 @@ a{
 .about-head {
   font-family: "pixeboy";
   font-size: 100px;
-  text-shadow: orangered 5px 5px 5px;
+  text-shadow: orangered 5px 5px;
   letter-spacing: 10px;
 }
 
 .about-text {
-  font-family: "aGoblinAppears";
-  font-size: 16px;
-  /* text-shadow: darkorange 1px 1px 20px; */
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: x-large;
+  text-shadow: black 2px 2px;
 }
