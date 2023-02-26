@@ -1,14 +1,15 @@
 import React from "react";
 import Handler from "./handler";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
     return (
         <nav className="nav-bar">
             <h1>Hello!</h1>
             <ul className="nav-list">
-                
-                    <Handler />
-                    
+
+                <Handler />
+
                 {/* <li><a href="#">Portfolio</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Resume</a></li> */}
