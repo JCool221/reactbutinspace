@@ -6,8 +6,8 @@
   --ti-cursor-displaycode : none;
   color: var(--cloud);
 }
-.body {
-  /* overflow: scroll !important; */
+body {
+  overflow: hidden;
 }
 
 @font-face {
@@ -24,54 +24,10 @@
   z-index: 2;
 }
 
-.nav-bar {
-  background: transparent;
-  color: var(--cloud);
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-}
-
-.nav-list {
-  list-style: none;
-  display: flex;
-  text-decoration: none;
-  justify-content: space-around;
-}
 
 a{
   text-decoration: none;
   color: var(--cloud);
   cursor: move;
   padding: 1rem;
-}
-
-.about-me {
-  margin-left: 5rem;
-  height: 75vh;
-  width: 90vw;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  line-height: 2;
-}
-
-.about-me img {
-  height: 10rem;
-  width: auto;
-  z-index: 2;
-}
-
-.about-head {
-  font-family: "pixeboy";
-  font-size: 100px;
-  text-shadow: orangered 5px 5px;
-  letter-spacing: 10px;
-}
-
-.about-text {
-  font-family: monospace;
-  font-weight: bolder;
-  font-size: x-large;
-  text-shadow: black 2px 2px;
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import data from './assets/data/portfolioContent.json'
+import data from '../assets/data/portfolioContent.json'
 import './portfolio.css';
 
 export default function Portfolio() {

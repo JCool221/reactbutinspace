@@ -1,8 +1,8 @@
 import './App.css';
 import Starfield from './components/starfield/starfield';
-import NavBar from './components/navbar';
-import AboutMe from './components/aboutMe';
-import Portfolio from './components/portfolio';
+import NavBar from './components/navbar/Navbar';
+import AboutMe from './components/aboutMe/AboutMe';
+import Portfolio from './components/portfolio/Portfolio';
 import BreathingShapes from './components/BreathingShapes/BreathingShapes';
 import { Route, Routes } from 'react-router-dom';
 import ContactMe from './components/contactMe/ContactMe';
