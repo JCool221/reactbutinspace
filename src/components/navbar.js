@@ -1,6 +1,5 @@
 import React from "react";
 import Handler from "./handler";
-import { Link } from "react-router-dom";
 
 const NavBar = () => {
     return (
@@ -10,9 +9,6 @@ const NavBar = () => {
 
                 <Handler />
 
-                {/* <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Resume</a></li> */}
             </ul>
         </nav>
     )

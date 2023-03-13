@@ -5,10 +5,11 @@ import AboutMe from './components/aboutMe';
 import Portfolio from './components/portfolio';
 import BreathingShapes from './components/BreathingShapes/BreathingShapes';
 import { Route, Routes } from 'react-router-dom';
+import ContactMe from './components/contactMe/ContactMe';
 
 function App() {
   return (
-    <div>
+    <div className='body'>
 
     <Starfield />
     <NavBar />
@@ -17,6 +18,7 @@ function App() {
       <Route path='/AboutMe' element={<AboutMe/>} />
       <Route path='/Portfolio' element={<Portfolio/>} />
       <Route path='/BreathingShapes' element={<BreathingShapes/>} />
+      <Route path='/Contact' element={<ContactMe/>} />
 
     </Routes>
 
