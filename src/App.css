@@ -6,6 +6,9 @@
   --ti-cursor-displaycode : none;
   color: var(--cloud);
 }
+.body {
+  /* overflow: scroll !important; */
+}
 
 @font-face {
   font-family: "pixeboy";

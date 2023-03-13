@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './components/assets/fonts/AGoblinAppears.ttf';
 import './components/assets/fonts/Pixeboy.ttf';
-import { BrowserRouter, RouterProvider } from "react-router-dom"
+import { BrowserRouter } from "react-router-dom"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
