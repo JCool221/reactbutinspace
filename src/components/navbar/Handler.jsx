@@ -9,7 +9,7 @@ const Handler = () => {
             <Link to={`Portfolio`}>Portfolio</Link>
             <Link to={`Contact`}>Contact Me</Link>
             <Link to={`Resume`}>Resume</Link>
-            <Link to={'BreathingShapes'}>My Css Tricks</Link>
+            {/* <Link to={'BreathingShapes'}>My Css Tricks</Link> */}
         </div>
     )
 }
