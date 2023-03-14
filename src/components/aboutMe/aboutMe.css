@@ -1,0 +1,39 @@
+
+
+
+.about-me {
+    margin-left: 5rem;
+    height: 75vh;
+    width: 90vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    line-height: 2;
+  }
+  
+  .about-me img {
+    height: 9rem;
+    width: auto;
+    z-index: 2;
+    margin-top: 4rem;
+    margin-right: 10rem;
+  }
+  
+  .about-head {
+    font-family: "pixeboy";
+    font-size: 100px;
+    text-shadow: orangered 5px 5px;
+    letter-spacing: 10px;
+  }
+  
+  .about-text {
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: x-large;
+    text-shadow: black 2px 2px;
+  }
+
+  .title-container{
+    display: flex;
+    justify-content: space-between;
+  }

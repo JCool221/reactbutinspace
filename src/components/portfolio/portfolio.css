@@ -1,7 +1,14 @@
 .portfolio-container {
-    /* overflow: scroll; */
+    min-height: 100vh;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
+ body {
+    overflow-y: scroll;
+ }
 
 .hero {
     box-shadow: 2px 2px black;
