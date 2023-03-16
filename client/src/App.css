@@ -1,0 +1,36 @@
+:root {
+  --anchor: #41424c;
+  --coin: #9897a9;
+  --cloud: #c5c6d0;
+  cursor: crosshair;
+  --ti-cursor-displaycode : none;
+  color: var(--cloud);
+}
+
+/* *{outline: 2px solid lime;} */
+
+body {
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "pixeboy";
+  src: url("./components/assets/fonts/Pixeboy.ttf");
+}
+
+@font-face {
+  font-family: "aGoblinAppears";
+  src: url('./components/assets/fonts/AGoblinAppears.ttf');
+}
+
+.top-level {
+  z-index: 2;
+}
+
+
+a{
+  text-decoration: none;
+  color: var(--cloud);
+  cursor: move;
+  padding: 1rem;
+}
